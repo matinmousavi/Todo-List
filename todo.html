@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>لیست کارها</title>
+  <link rel="stylesheet" href="./assets/styles/todo.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <div class="profile">
+        <img src="./assets/images/profile.jpg" alt="profile" class="profile-img">
+        <div class="profile-info">
+          <h3>متین موسوی</h3>
+          <p>matinmousavi5049@gmail.com</p>
+        </div>
+      </div>
+      <div class="search-box">
+        <i class="fas fa-search"></i>
+        <input type="text" placeholder="جستجو...">
+      </div>
+      <nav class="menu">
+        <ul>
+          <li><i class="fas fa-calendar-day"></i> روز من</li>
+          <li><i class="fas fa-star"></i> مهم</li>
+          <li><i class="fas fa-calendar"></i> برنامه‌ریزی شده</li>
+          <li class="active"><i class="fas fa-tasks"></i> همه <span class="count">389</span></li>
+          <li><i class="fas fa-user"></i> اختصاص داده شده به من</li>
+        </ul>
+        <h3>پروژه‌ها</h3>
+        <ul>
+          <li><i class="fas fa-circle project-color"></i> Webops <span class="count">2</span></li>
+          <li><i class="fas fa-circle project-color"></i> Git</li>
+          <li><i class="fas fa-circle project-color"></i> Team</li>
+          <li><i class="fas fa-circle project-color"></i> Karyar <span class="count">1</span></li>
+          <li><i class="fas fa-circle project-color"></i> Chabahar <span class="count">4</span></li>
+          <li><i class="fas fa-circle project-color"></i> Learn English <span class="count">2</span></li>
+          <li><i class="fas fa-circle project-color"></i> Amazon <span class="count">6</span></li>
+          <li><i class="fas fa-circle project-color"></i> Fidex <span class="count">6</span></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="main-content">
+      <div class="header">
+        <div class="title">
+          <i class="fas fa-circle project-color"></i>
+          <h2>Webops</h2>
+        </div>
+        <div class="actions">
+          <button><i class="fas fa-share"></i></button>
+          <button><i class="fas fa-ellipsis-h"></i></button>
+        </div>
+      </div>
+      <div class="tasks">
+        <div class="task">
+          <div class="task-checkbox">
+            <input type="checkbox" id="task1">
+            <label for="task1">رفع مشکل رنگ سایت</label>
+          </div>
+          <button class="star-btn"><i class="far fa-star"></i></button>
+        </div>
+        <div class="task">
+          <div class="task-checkbox">
+            <input type="checkbox" id="task2">
+            <label for="task2">اصلاح متن مشاوره</label>
+          </div>
+          <button class="star-btn"><i class="far fa-star"></i></button>
+        </div>
+        <div class="task completed">
+          <div class="task-checkbox">
+            <input type="checkbox" id="task3" checked>
+            <label for="task3">بازنگری مجدد</label>
+          </div>
+          <button class="star-btn"><i class="far fa-star"></i></button>
+        </div>
+        <div class="task completed">
+          <div class="task-checkbox">
+            <input type="checkbox" id="task4" checked>
+            <label for="task4">تغییر پلت رنگی سایت</label>
+          </div>
+          <button class="star-btn"><i class="far fa-star"></i></button>
+        </div>
+        <div class="task completed">
+          <div class="task-checkbox">
+            <input type="checkbox" id="task5" checked>
+            <label for="task5">بهینه سازی عملکرد سایت</label>
+          </div>
+          <button class="star-btn"><i class="far fa-star"></i></button>
+        </div>
+      </div>
+      <div class="add-task">
+        <button class="add-btn">
+          <i class="fas fa-plus"></i>
+          <span>افزودن کار</span>
+        </button>
+      </div>
+    </div>
+    <div class="task-details">
+      <div class="details-header">
+        <h3>تغییر پلت رنگی سایت</h3>
+        <div class="details-actions">
+          <button><i class="fas fa-plus"></i></button>
+          <button><i class="fas fa-star"></i></button>
+          <button><i class="fas fa-ellipsis-h"></i></button>
+        </div>
+      </div>
+      <div class="details-content">
+        <div class="detail-item">
+          <i class="fas fa-calendar"></i>
+          <span>اضافه شده در تاریخ ۲۶ دی</span>
+        </div>
+        <div class="detail-item">
+          <i class="fas fa-clock"></i>
+          <span>یادآوری: ۱۱:۳۰</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./assets/js/todo.js"></script>
+</body>
+
+</html>
